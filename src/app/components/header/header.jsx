@@ -17,7 +17,7 @@ const Header = () => {
           <li>
             <a href="tel:+32 493 03 37 37">
               <img
-                src="\portfolio-react\img\telephone-svgrepo-com.svg"
+                src="/portfolio-react/img/telephone-svgrepo-com.svg"
                 alt="svg telephone icon"
               />
             </a>
