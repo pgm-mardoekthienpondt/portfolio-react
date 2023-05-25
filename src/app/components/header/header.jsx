@@ -12,12 +12,12 @@ const Header = () => {
       </div>
 
       <div className="header--picture">
-        <img src="/portfolio-react//img/me.png" alt="myself" />
+        <img src="/portfolio-react/img/me.png" alt="myself" />
         <ul className="header--contact">
           <li>
             <a href="tel:+32 493 03 37 37">
               <img
-                src=".\portfolio-react\img\telephone-svgrepo-com.svg"
+                src="\portfolio-react\img\telephone-svgrepo-com.svg"
                 alt="svg telephone icon"
               />
             </a>
@@ -34,7 +34,7 @@ const Header = () => {
           <li>
             <a href="https://github.com/pgm-mardoekthienpondt">
               <img
-                src="/portfolio-react/\img\github-svgrepo-com.svg"
+                src="/portfolio-react/img/github-svgrepo-com.svg"
                 alt="svg mail icon"
               />
             </a>
