@@ -15,11 +15,11 @@ const Header = () => {
                 <img src="/img/me.png" alt="myself" />
                 <ul className="header--contact">
                     <li>
-                        <a href="tel:+32 493 03 37 37"><img src="portfolio-react\img\telephone-svgrepo-com.svg" alt="svg telephone icon" /></a>
+                        <a href="tel:+32 493 03 37 37"><img src=".\portfolio-react\img\telephone-svgrepo-com.svg" alt="svg telephone icon" /></a>
                     </li>
                     <li>
                     {/* className="link-underline-primary" */}
-                        <a href="mailto:mardoek.thienpondt@student.arteveldehs.be" ><img src="\img\mail-svgrepo-com.svg" alt="svg mail icon" /></a>
+                        <a href="mailto:mardoek.thienpondt@student.arteveldehs.be" ><img src=".portfolio-react/img/mail-svgrepo-com.svg" alt="svg mail icon" /></a>
                     </li>
                     <li>
                         <a href="https://github.com/pgm-mardoekthienpondt"><img src="\img\github-svgrepo-com.svg" alt="svg mail icon" /></a>
