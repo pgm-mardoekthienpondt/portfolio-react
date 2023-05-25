@@ -19,7 +19,7 @@ const Header = () => {
                     </li>
                     <li>
                     {/* className="link-underline-primary" */}
-                        <a href="mailto:mardoek.thienpondt@student.arteveldehs.be" ><img src=".portfolio-react/img/mail-svgrepo-com.svg" alt="svg mail icon" /></a>
+                        <a href="mailto:mardoek.thienpondt@student.arteveldehs.be" ><img src="./portfolio-react/img/mail-svgrepo-com.svg" alt="svg mail icon" /></a>
                     </li>
                     <li>
                         <a href="https://github.com/pgm-mardoekthienpondt"><img src="\img\github-svgrepo-com.svg" alt="svg mail icon" /></a>
