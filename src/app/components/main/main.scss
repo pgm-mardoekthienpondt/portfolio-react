@@ -1,26 +1,90 @@
 main{
     padding-bottom: 200rem;
-    h2{
-        text-align: center;
-        font-size: 3rem;
-        margin-top: 6rem;
-        margin-bottom: 5rem;
-    }
-    ul{
-        display: flex;
-        justify-content: space-evenly;
-        li{
-            img{
-                width: 8rem;
-            }
+    section{
+        h2{
+            text-align: center;
+            font-size: 3rem;
+            margin-top: 6rem;
+            margin-bottom: 5rem;
         }
-        li{
-            padding: 1rem;
-            p{
-                font-size: 1.1rem;
+    }
+    .section--hardskills{
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            li{
+                img{
+                    width: 10rem;
+                    aspect-ratio: 1/1;
+                }
+            };
+        }
+    }
+    
+    .section--projects{
+        ul{
+            display: flex;
+            gap: 2rem;
+            
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            li{
+                flex-basis: 30%;
+                img{
+                    width: 22rem;
+                    aspect-ratio: 2/1;
+                    object-fit: contain;
+                }
+            }
+            li{
+                padding: 1rem;
+                p{
+                    font-size: 1.1rem;
+                    margin-bottom: 1.5rem;
+                }
+                .card-body{
+                    position: relative;
+                    span{
+                        color: rgb(104, 104, 104) ;
+                        position: absolute;
+                        bottom: 0.3rem;
+                        right: 0.3rem;
+                    }
+                }
                 
             }
+        }
+    }
+    .section--future{
+        div{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            p{
+                font-size: larger;
+                max-width: 30rem;
+            }
+            img{
             
+                max-width: 30rem;
+            }
+        }
+    }
+    .section--services{
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            li{
+                .img-wrapper{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                img{
+                    width: 5rem;
+                }
+            }
         }
     }
 }
