@@ -1,0 +1,1 @@
+Hosted my own domain thanks to Github, the help of a lovely dev and these docs: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
